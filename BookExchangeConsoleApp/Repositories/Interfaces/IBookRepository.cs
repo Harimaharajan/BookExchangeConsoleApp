@@ -7,8 +7,9 @@ namespace BookExchangeConsoleApp.Repositories.Interfaces
 {
     public interface IBookRepository
     {
-        List<BookModel> BookList {get; set;}
-        bool IsBookAvailable(BookModel bookModel);
-        int AddNewBook(BookModel bookModel);
+        List<IBookModel> BookList {get; set;}
+        IBookModel CaptureNewBookData();
+        bool IsBookAvailable(IBookModel bookModel);
+        int AddNewBook(IBookModel bookModel);
     }
 }

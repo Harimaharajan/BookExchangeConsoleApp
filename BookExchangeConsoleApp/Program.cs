@@ -15,22 +15,9 @@ namespace BookExchangeConsoleApp
             container.RegisterType<IUserRepository, UserRepository>();
             BookRepository bookRepository = container.Resolve<BookRepository>();
 
-            Console.WriteLine("Book Exchange");
-            BookModel newBook = new BookModel();
-            string bookName, bookOwner;
-            bool bookAvailability = false;
+            IBookModel newBookDetails = bookRepository.CaptureNewBookData();
 
-            Console.WriteLine("Please Enter Book name");
-            bookName = Console.ReadLine();
-            
-            Console.WriteLine("Please Enter Book Owner name");
-            bookOwner = Console.ReadLine();
-
-            newBook.BookName = bookName;
-            newBook.OwnerName = bookOwner;
-            newBook.AvailabilityStatus = bookAvailability;
-            
-            int result = bookRepository.AddNewBook(newBook);
+            int result = bookRepository.AddNewBook(newBookDetails);
             Console.WriteLine(result);
 
             Console.ReadKey();

@@ -2,7 +2,7 @@
 
 namespace BookExchangeConsoleApp.Models
 {
-    public class Users
+    public class Users : IUsers
     {
         public Users(int id, string userName)
         {

@@ -1,6 +1,6 @@
 ﻿namespace BookExchangeConsoleApp.Models
 {
-    public class BookModel
+    public class BookModel : IBookModel
     {
         public int ID
         {

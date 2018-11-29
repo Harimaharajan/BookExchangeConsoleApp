@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using BookExchangeConsoleApp.Models;
@@ -15,9 +16,9 @@ namespace BookExchangeConsoleApp.Repositories
             _userRepository = userRepository;
         }
 
-        public List<BookModel> BookList { get; set; } = new List<BookModel>();
+        public List<IBookModel> BookList { get; set; } = new List<IBookModel>();
 
-        private bool ValidateNewBookModel(BookModel bookModel)
+        private bool ValidateNewBookModel(IBookModel bookModel)
         {
             if (bookModel == null)
             {
@@ -51,12 +52,26 @@ namespace BookExchangeConsoleApp.Repositories
             return true;
         }
 
-        public bool IsBookAvailable(BookModel bookModel)
+        public IBookModel CaptureNewBookData()
+        {
+            IBookModel newBookdetails = new BookModel();
+
+            Console.WriteLine("Please Enter Book name");
+            newBookdetails.BookName = Console.ReadLine();
+
+            Console.WriteLine("Please Enter Book Owner name");
+            newBookdetails.OwnerName = Console.ReadLine();
+            newBookdetails.AvailabilityStatus = false;
+
+            return newBookdetails;
+        }
+
+        public bool IsBookAvailable(IBookModel bookModel)
         {
             return bookModel.AvailabilityStatus;
         }
 
-        public int AddNewBook(BookModel bookModel)
+        public int AddNewBook(IBookModel bookModel)
         {
             if (ValidateNewBookModel(bookModel))
             {
