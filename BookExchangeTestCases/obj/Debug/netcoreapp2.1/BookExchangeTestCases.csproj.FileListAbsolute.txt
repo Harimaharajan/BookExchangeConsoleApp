@@ -1,0 +1,17 @@
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.csprojAssemblyReference.cache
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.csproj.CoreCompileInputs.cache
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.AssemblyInfoInputs.cache
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.AssemblyInfo.cs
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeTestCases.deps.json
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeTestCases.runtimeconfig.json
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeTestCases.runtimeconfig.dev.json
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeTestCases.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.pdb
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.csproj.CopyComplete
+D:\BookExchangeConsoleApp\BookExchangeTestCases\bin\Debug\netcoreapp2.1\BookExchangeTestCases.pdb
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.dll
+D:\BookExchangeConsoleApp\BookExchangeTestCases\obj\Debug\netcoreapp2.1\BookExchangeTestCases.pdb

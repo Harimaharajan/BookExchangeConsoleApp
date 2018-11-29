@@ -1,0 +1,11 @@
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.csproj.CoreCompileInputs.cache
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.AssemblyInfoInputs.cache
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.AssemblyInfo.cs
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.deps.json
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.runtimeconfig.json
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.runtimeconfig.dev.json
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.dll
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\bin\Debug\netcoreapp2.1\BookExchangeConsoleApp.pdb
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.dll
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.pdb
+D:\BookExchangeConsoleApp\BookExchangeConsoleApp\obj\Debug\netcoreapp2.1\BookExchangeConsoleApp.csprojAssemblyReference.cache
